@@ -29,7 +29,7 @@ body {
     rgba(126, 64, 246, 1),
     rgba(80, 139, 252, 1)
   );
-  /* background-image: url('https://cdn.pixabay.com/photo/2022/07/31/08/03/to-do-7355222_1280.jpg');  */
+   background-image: url('https://cdn.pixabay.com/photo/2022/07/31/08/03/to-do-7355222_1280.jpg');  
   background-size: cover;
   background-position: center;
 }
@@ -385,3 +385,20 @@ input[type="checkbox"]:not(.task-completed):checked::before {
     width: auto;
   }
 }
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.btn-outline-secondary {
+  border-radius: 0;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #f8f9fa;
+}
+
